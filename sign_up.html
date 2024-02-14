@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iMovies Login Page </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="#"><img src="images/logo.svg" alt="logo"></a>
+    </nav>
+    <div class="form-wrapper">
+        <h2>Sign up</h2>
+        <form action="index.php" method="post">
+            <div class="form-control">
+                <input type="text" id="Name" name="fname" required >
+                <label>Name</label>
+            </div>
+            <div class="form-control">
+                <input type="email" id="Email" name="Email" required>    
+                <label> Email</label>
+            </div>
+            <div class="form-control">
+                <input type="tel" id="phone" name="phone" required>
+                <label> Mobile number</label>
+            </div>
+            <div class="form-control">
+                <input type="date" id="date" name="date" required>
+                <label>Date of birth</label>
+            </div>
+            <div class="form-control">
+                <input type="password" id="pass" name="pass" required>
+                <label>Password</label>
+            <button type="submit" name="save">Sign Up</button>
+            
+        </form>
+        <p>Already have a account? <a href="Sign_in.html">Sign in</a></p>
+    </div>
+</body>
+</html>
